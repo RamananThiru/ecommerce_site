@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'products_management',
     'debug_toolbar',
     'products.apps.ProductConfig',
+    'integrations'
 ]
 
 MIDDLEWARE = [

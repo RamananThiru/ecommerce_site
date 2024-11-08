@@ -1,6 +1,5 @@
 from django.db import models
 from django.core.exceptions import ValidationError
-import pdb
 
 # Create your models here.
 

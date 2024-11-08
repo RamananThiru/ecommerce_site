@@ -1,0 +1,2 @@
+Error: NoReverseMatch at /api/get_cat_fact/ | 'djdt' is not a registered namespace
+Stack Overflow Reference: https://stackoverflow.com/questions/51985367/after-adding-django-debug-to-app-getting-djdt-is-not-a-registered-namespace
