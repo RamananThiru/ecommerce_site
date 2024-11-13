@@ -1,2 +1,2 @@
-_pycache__/
-*.py[cod]
+.py[co]
+__pycache__
