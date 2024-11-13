@@ -29,6 +29,17 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+INTERNAL_APPS = [
+    'products_management',
+    'integrations',
+    'products.apps.ProductConfig',
+]
+
+ADD_ON_APPS = [
+    'debug_toolbar',
+    'rest_framework',
+    'django_extensions',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,12 +48,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'products_management',
-    'debug_toolbar',
-    'products.apps.ProductConfig',
-    'integrations'
 ]
+
+INSTALLED_APPS += INTERNAL_APPS
+INSTALLED_APPS += ADD_ON_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
