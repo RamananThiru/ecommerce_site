@@ -16,6 +16,5 @@ def get_cat_fact(request):
 
 @api_view(['POST'])
 def save_alert_cat_info(request):
-   pdb.set_trace()
    return Response({})
 
